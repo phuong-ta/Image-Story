@@ -1,0 +1,14 @@
+
+<html>
+   <head>
+      <title>success</title>
+   </head>
+   <body>
+      <p>File uploaded successfully</p>
+      <p>Path from template: {{ original_image }}</p>
+      <img src="{{ url_for('static', filename = original_image) }}" alt="Original Image">
+      <img src="{{ url_for('static', filename = detected_image) }}" alt="detected Image">
+      <p>Detected Object: {{ detected_image_data }}</p>
+      <p>Response: {{ data }}</p>
+   </body>
+</html>
