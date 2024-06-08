@@ -35,9 +35,9 @@ To get a local copy up and running, follow these simple steps.
 1. Install Ollama 
 - On Windown: Download .exe file from https://ollama.com/
 - On Anaconda: run commands 
-conda config --add channels conda-forge
-conda config --set channel_priority strict
-conda install ollama
++ conda config --add channels conda-forge
++ conda config --set channel_priority strict
++ conda install ollama
 2. Run Llava via Ollama
 - Ollama run llava
 3. Clone Yolov9 from Github (https://github.com/WongKinYiu/yolov9)
